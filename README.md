@@ -1,5 +1,5 @@
 <p align="center">
- <img src="https://raw.githubusercontent.com/morrigan-dev/mail-to-pdf/anforderungen/dokumentation/images/mailtopdf-logo_transparent.png" width="256">
+ <img src="https://raw.githubusercontent.com/morrigan-dev/mail-to-pdf/master/dokumentation/images/mailtopdf-logo_transparent.png" width="256">
 </p>
 
 <hr />
