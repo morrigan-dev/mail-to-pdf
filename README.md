@@ -1,7 +1,5 @@
 <p align="center">
  <img src="https://raw.githubusercontent.com/morrigan-dev/mail-to-pdf/anforderungen/dokumentation/images/mailtopdf-logo_transparent.png" width="256">
- <span style="font-size: 26pt; font-weight: bold;"><br />Mail to PDF</span>
- <span style="font-size: 22pt;"><br />Konverter</span>
 </p>
 
 <hr />
