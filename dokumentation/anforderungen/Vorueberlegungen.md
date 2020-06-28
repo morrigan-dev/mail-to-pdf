@@ -4,7 +4,7 @@ Im Rahmen der Softwareentwicklung, kann diese nach folgenden Kriterien<sup id="a
 
 * [Nähe und Anzahl der Kunden](#Nähe-und-Anzahl-der-Kunden)
 * [Art der Benutzer, Art der Benutzung](#Art-der-Benutzer-Art-der-Benutzung)
-* [Größe bzw. Komplexität der Software und des Projekts](#Größe-bzw.-Komplexität-der-Software-und-des-Projekts)
+* [Größe/Komplexität der Software und des Projekts](#Größe-Komplexität-der-Software-und-des-Projekts)
 * [Wie kritisch ist nichttechnisches Domänenwissen?](#Wie-kritisch-ist-nichttechnisches-Domänenwissen?)
 * [Müssen Nährungslösungen verwendet werden?](#Müssen-Nährungslösungen-verwendet-werden?)
 * [Wie kritisch ist Effizienz?](#Wie-kritisch-ist-Effizienz?)
@@ -47,7 +47,7 @@ Es kann nicht ausgeschlossen werden, dass dieses Projekt als Beispiel für ander
 Daher wird bei der Dokumentation großen Wert auf Nachvollziehbarkeit, Korrektheit und Verständlichkeit gelegt.
 Dies sind Anforderungen an die Art der Dokumentation, jedoch nicht an das Software Produkt selbt.
 
-## Größe bzw. Komplexität der Software und des Projekts
+## Größe/Komplexität der Software und des Projekts
 
 Es handelt sich um eine Software mit einer sehr geringen Komplexität und das beteiligte Entwicklerteam besteht ebenfalls
 nur aus einer Person. Daher wäre für diese Art von Projekt nicht zwingend alle Methoden des Software Engineers nötig.
