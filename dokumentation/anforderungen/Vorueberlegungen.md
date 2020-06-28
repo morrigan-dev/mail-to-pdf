@@ -4,7 +4,7 @@ Im Rahmen der Softwareentwicklung, kann diese nach folgenden Kriterien<sup id="a
 
 * [Nähe und Anzahl der Kunden](#Nähe-und-Anzahl-der-Kunden)
 * [Art der Benutzer, Art der Benutzung](#Art-der-Benutzer-Art-der-Benutzung)
-* [Größe/Komplexität der Software und des Projekts](#Größe-Komplexität-der-Software-und-des-Projekts)
+* [Größe/Komplexität der Software und des Projekts](#Größe/Komplexität-der-Software-und-des-Projekts)
 * [Wie kritisch ist nichttechnisches Domänenwissen?](#Wie-kritisch-ist-nichttechnisches-Domänenwissen?)
 * [Müssen Nährungslösungen verwendet werden?](#Müssen-Nährungslösungen-verwendet-werden?)
 * [Wie kritisch ist Effizienz?](#Wie-kritisch-ist-Effizienz?)
