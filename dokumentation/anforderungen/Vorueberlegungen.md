@@ -2,13 +2,13 @@
 
 Im Rahmen der Softwareentwicklung, kann diese nach folgenden Kriterien<sup id="a1">[1](#f1)</sup> eingeteilt werden:
 
-* [Nähe und Anzahl der Kunden](Nähe und Anzahl der Kunden)
-* [Art der Benutzer, Art der Benutzung](Art der Benutzer, Art der Benutzung)
-* [Größe/Komplexität der Software und des Projekts](Größe/Komplexität der Software und des Projekts)
-* [Wie kritisch ist nichttechnisches Domänenwissen?](Wie kritisch ist nichttechnisches Domänenwissen?)
-* [Müssen Nährungslösungen verwendet werden?](Müssen Nährungslösungen verwendet werden?)
-* [Wie kritisch ist Effizienz?](Wie kritisch ist Effizienz?)
-* [Wie kritisch ist Verlässlichkeit?](Wie kritisch ist Verlässlichkeit?)
+* [Nähe und Anzahl der Kunden](#Nähe und Anzahl der Kunden)
+* [Art der Benutzer, Art der Benutzung](#Art der Benutzer, Art der Benutzung)
+* [Größe/Komplexität der Software und des Projekts](#Größe/Komplexität der Software und des Projekts)
+* [Wie kritisch ist nichttechnisches Domänenwissen?](#Wie kritisch ist nichttechnisches Domänenwissen?)
+* [Müssen Nährungslösungen verwendet werden?](#Müssen Nährungslösungen verwendet werden?)
+* [Wie kritisch ist Effizienz?](#Wie kritisch ist Effizienz?)
+* [Wie kritisch ist Verlässlichkeit?](#Wie kritisch ist Verlässlichkeit?)
 
 In Folgenden werden sich zu jedem genannten Aspekt für das anstehende Projekt Gedanken gemacht.
 
@@ -99,4 +99,4 @@ eingegeben werden. Dies wirkt sich natürlich auf den Komfort für die Benutzer 
 in Kauf genommen wird.
 
 <hr />
-<b id="f1">1</b>: [Lutz Prechelt, Vorlesungsmaterial "Softwaretechnik", Freie Universität Berlin, 2020, Version 2](http://www.inf.fu-berlin.de/inst/ag-se/teaching/V-SWT-2020/Miniskript.pdf) [↩](#a1)
+<b id="f1">1</b>: [Lutz Prechelt, Vorlesungsmaterial "Softwaretechnik", Freie Universität Berlin, 2020, Version 2](http://www.inf.fu-berlin.de/inst/ag-se/teaching/V-SWT-2020/Miniskript.pdf)
