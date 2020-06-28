@@ -21,8 +21,8 @@ Ich erstelle dieses Projekt als Übung für ein Informatik Fernstudium im Modul 
 auch die entstehenden Artefakte sind an die Lehrinhalte aus dem genannten Modul angelehnt. Mittels eines praktischen 
 Beispiels sollen die Lehrinhalte sprechender und das Gelernte vertieft werden.
 
-Manche Aspekte, wie beispielsweise das inhaltliche Layout, wurden von dem 
-Projekt [Corona Warn-App](https://github.com/corona-warn-app/cwa-documentation) übernommen.
+Bei manche Aspekten, wie beispielsweise das inhaltliche Layout, habe ich mich von dem 
+Projekt [Corona Warn-App](https://github.com/corona-warn-app/cwa-documentation) inspirieren lassen.
 
 ## Wer bin ich
 
@@ -40,10 +40,11 @@ betrufstätigkeit absolviere.
 
 ## Datenschutz
 
-Diese Anwendung ist eine reine Client-Anwendung und kommt ohne Server aus. Während der Benutzung müssen Zugangsdaten
-für E-Mail Postfächer eingegeben werden, jedoch werden diese Zugangsdaten und auch sonst keine Daten gespeichert.
+Diese Anwendung ist eine reine Client-Anwendung und kommt ohne eigenständigen Server aus. Während der Benutzung müssen 
+Zugangsdaten für E-Mail Postfächer eingegeben werden, jedoch werden diese Zugangsdaten und auch sonst keine Daten 
+gespeichert.
 
-Da dieses Übung als Open-Source-Projekt realisiert wurd, kann jeder dies überprüfen. 
+Da dieses Übung als Open-Source-Projekt realisiert wurde, kann jeder dies überprüfen. 
 Ich begrüße jede konstruktive Rückmeldung!
 
 ## Code of Conduct
