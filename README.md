@@ -24,6 +24,17 @@ Beispiels sollen die Lehrinhalte sprechender und das Gelernte vertieft werden.
 Bei manche Aspekten, wie beispielsweise das inhaltliche Layout, habe ich mich von dem 
 Projekt [Corona Warn-App](https://github.com/corona-warn-app/cwa-documentation) inspirieren lassen.
 
+**Zusammenfassung des Zielbildes**
+
+Innerhalb dieses Projektes wird eine kleine Anwendung erstellt mit der man sich mit einem beliebigen E-Mail Postfach 
+verbinden kann. In einer kleinen Benutzeroberfläche werden die einzelnen E-Mails in einer Tabelle angezeigt und der
+Benutzer ist in der Lage mehrere E-Mails zu markieren und als PDF Dokument zu exportieren. Er kann dabei das 
+Zielverzeichnis, in das die PDFs erzeugt werden, angeben. Weiterhin kann er für den Dateinamen der PDFs eine Vorlage
+definieren, sodass z.B. das Datum des Eingangs und der Betreff im Dateinamen abgelegt werden.
+
+Für die Realisierung wird der komplette Software Engineering Prozess durchlaufen.
+Details zu den einzelnen Dokumenten befinden sich im Abschnitt [Meine Dokumentation](#Meine-Dokumentation)
+
 ## Wer bin ich
 
 Ich bin ein ausgebildeter Informatiker im Bereich Anwendungsentwicklung und habe bereits über 10 Jahre Berufserfahrung.
@@ -62,28 +73,21 @@ alle Dokumente in der Dokumentation und alle Kommentare im Code, Deutsch.
 
 Dieses Repository enthält die komplette Übung mit der vollständigen Dokumentation und der Realisiereung.
 
-### Phase: Anforderungen & Analyse
+![Software Engineering Prozess](dokumentation/images/software-engineering-process-detail.png)
 
-Sämtliche Dokumente, die zur Erhebung der Anforderungen genutzt wurden befinden sich in dem Verzeichnis _dokumentation_.
-In diesem Verzeichnis werden jedoch nur die fachlichen Dokumente für die Phasen Anforderung und Analyse abgelegt. 
-Diese sind in den gleichnamigen Unterverzeichnissen zu finden.
+* [Domänenanalyse](dokumentation/Domaenenanalyse.md)
+* [Vision & Scope Dokument](dokumentation/Vision-Scope-Dokument.md)
+* [Anforderungen](dokumentation/Anforderungen.md)
+* [Analyse](dokumentation/analyse.md)
+* Entwurf
+* Realisierung
+* Test
 
-Folgende Dokumente wurden erstellt:
-<!-- TODO Neue Dokumente hier verlinken -->
-
-* [Vorüberlegungen](dokumentation/anforderungen/Vorueberlegungen.md)
-
-### Phase: Entwurf & Realisierung
-<!-- TODO Prüfen, ob eine Realisierung der technischen Dokumentation mittels maven sites auf github möglich ist -->
-_bisher keine_
-
-### Phase: Testen
 <!-- 
 TODO
-* Unterscheidung zwischen fachlichen Akzeptanztests und technischen Tests wie Unit und Integration
-* Klären  
+Prüfen, ob eine Realisierung der technischen Dokumentation mittels maven sites auf github möglich ist.
+Unterscheidung zwischen fachlichen Akzeptanztests und technischen Tests wie Unit und Integration.
 -->
-_bisher keine_
 
 ## Projekte
 
