@@ -35,8 +35,8 @@ Hibernate und viele mehr zum Einsatz.<br />
 Natürlich wurden bei diesen Anwendungen auch Datenbanken genutzt. Hier bin ich vertraut mit: MySQL, MSSQL, Oracle, H2.   
 
 Im Jahr 2020 habe ich mich für ein Fernstudium an der Hochschule Trier entschieden, um den Master of Science im Bereich
-Informatik erreichen. Es handelt sich hierbei um ein Zertifikatsbasiertes Fernstudium, welches ich neben meiner normalen
-betrufstätigkeit absolviere.
+Informatik zu erreichen. Es handelt sich hierbei um ein zertifikatsbasiertes Fernstudium, welches ich neben meiner normalen
+Betrufstätigkeit absolviere.
 
 ## Datenschutz
 
@@ -70,7 +70,8 @@ Diese sind in den gleichnamigen Unterverzeichnissen zu finden.
 
 Folgende Dokumente wurden erstellt:
 <!-- TODO Neue Dokumente hier verlinken -->
-_bisher keine_
+
+* [Vorüberlegungen](dokumentation/anforderungen/Vorueberlegungen.md)
 
 ### Phase: Entwurf & Realisierung
 <!-- TODO Prüfen, ob eine Realisierung der technischen Dokumentation mittels maven sites auf github möglich ist -->
