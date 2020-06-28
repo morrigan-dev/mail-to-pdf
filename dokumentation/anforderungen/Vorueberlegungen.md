@@ -3,12 +3,12 @@
 Im Rahmen der Softwareentwicklung, kann diese nach folgenden Kriterien<sup id="a1">[1](#f1)</sup> eingeteilt werden:
 
 * [Nähe und Anzahl der Kunden](#Nähe-und-Anzahl-der-Kunden)
-* [Art der Benutzer, Art der Benutzung](#Art der Benutzer, Art der Benutzung)
-* [Größe/Komplexität der Software und des Projekts](#Größe/Komplexität der Software und des Projekts)
-* [Wie kritisch ist nichttechnisches Domänenwissen?](#Wie kritisch ist nichttechnisches Domänenwissen?)
-* [Müssen Nährungslösungen verwendet werden?](#Müssen Nährungslösungen verwendet werden?)
-* [Wie kritisch ist Effizienz?](#Wie kritisch ist Effizienz?)
-* [Wie kritisch ist Verlässlichkeit?](#Wie kritisch ist Verlässlichkeit?)
+* [Art der Benutzer, Art der Benutzung](#Art-der-Benutzer,-Art-der-Benutzung)
+* [Größe/Komplexität der Software und des Projekts](#Größe/Komplexität-der-Software-und-des-Projekts)
+* [Wie kritisch ist nichttechnisches Domänenwissen?](#Wie-kritisch-ist-nichttechnisches-Domänenwissen?)
+* [Müssen Nährungslösungen verwendet werden?](#Müssen-Nährungslösungen-verwendet-werden?)
+* [Wie kritisch ist Effizienz?](#Wie-kritisch-ist-Effizienz?)
+* [Wie kritisch ist Verlässlichkeit?](#Wie-kritisch-ist-Verlässlichkeit?)
 
 In Folgenden werden sich zu jedem genannten Aspekt für das anstehende Projekt Gedanken gemacht.
 
