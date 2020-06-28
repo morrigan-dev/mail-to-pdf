@@ -110,4 +110,4 @@ Zwecke leicht modifiziert wurde. Weitere Informationen finden Sie unter
 ## Informationen zur Teilnahme
 
 Weitere Informationen z.B. darüber, wie Sie das Projekt unterstützen können, unser Team aufgebaut ist oder unsere 
-Projektstruktur aussieht, finden Sie hier: [CONTRIBUTING.md](CONTRIBUTING.md).
+Projektstruktur aussieht, finden Sie hier: [CONSTRIBUTING.md](CONSTRIBUTING.md).
