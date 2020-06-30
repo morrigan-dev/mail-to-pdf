@@ -72,3 +72,16 @@ Weitere Informationen:
 * [DMSolution Glossar - SMTP](https://www.dmsolutions.de/glossar/smtp.html)
 * [Veranschaulichung der Unterschiede zwischen SMTP, IMAP und POP3](https://www.youtube.com/watch?v=O187AH5s3hY)
 
+### PDF
+
+PDF steht für **P**ortable **D**ocument **F**ormat.<br />
+Mit dem PDF ist es möglich eine vielzahl von Dokumentformate in ein Format zu bringen, welches auf jedem PC und auf 
+jedem System originalgetreu angezeigt wird. Grundsätzlich kann zwischen reinen "nur lesenden" PDF und "beschreibbaren"
+PDFs unterschieden werden. Alle PDFs haben gemeinsam, dass sie ohne spezielle Software nachträglich nicht mehr geändert
+werden können. Bei beschreibbaren PDFs können jedoch Elemente definiert werden, die Informationen nachträglich noch
+ausfnehmen können, wie z.B. Text.
+
+Weitere Informationen:
+
+* [webpdf.de - Blog: PDF einfach erklärt](https://www.webpdf.de/blog/pdf-einfach-erklaert/)
+* [Youtube - Acrobat tutorial: Understanding the Portable Document Format (englisch)](https://www.youtube.com/watch?v=wK1cFLd9vJE)
