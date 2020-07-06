@@ -118,7 +118,39 @@ Stakeholder | Nutzen                                         | Einstellung      
 ------------|------------------------------------------------|----------------------------|----------------|----------------
 Endnutzer   | Unterstützung bei der Archivierung von E-Mails | Hoher Automatisierungsgrad | Zeitersparnis  | Einfache Bedienung
 
-
 ### Projektpriorität
 
+**Feature**
+
+fix: Alle notwendigen Features müssen zum jeweiligen Release fertig sein, da das System sonst nicht einsetzbar ist
+und der Zeitplan für die Gesamteinführung nicht eingehalten werden kann.
+
+**Qualität**
+
+fix: Die Kernfunktionalitäten (E-Mails anrufen, PDF exportieren) muss funktionieren. Fehler in der Darstellung auf der
+Benutzeroberfläche können vertretbar sein und zu einem späteten Zeitpunkt behoben werden. Gleiches gilt für Fehler, die
+keinen Einfluss auf die Kernfunktionalität haben.
+
+**Termin**
+
+fix: Aufgrund Äußerer Rahmenbedingungen sind folgende Fertigstellungszeitpunkte zwingend einzuhalten.
+
+* Release 1: Fertigstellung bis spätestens 12.07.2020
+* Release 2: Fertigstellung bis spätestens 17.07.2020
+* Release 3: Fertigstellung bis spätestens 22.07.2020
+* Release 4: Fertigstellung bis spätestens 27.07.2020
+
+**Kosten**
+
+anpassbar: Buget ergibt sich durch die Einsparung über die nächsten 500 Tage bei einer Person mit täglich 50 E-Mails,
+3 Sekunden statt 15 Sekunden Bearbeitungszeit für eine E-Mail und einer Projektlaufzeit von 26 Tagen á 4 Stunden pro
+Tag.
+
+**Team**
+
+Keine Prioritäten
+
 ### Technische Anwendungsumgebung
+
+**Mail to PDF** wird plattformunabhängig sein und somit auf Windows, Linux und iOS lauffähig sein. Als Basis wird hier
+die Java Virtual Runtime genutzt, die für alle üblichen Betriebssysteme zur Verfügung steht. 
