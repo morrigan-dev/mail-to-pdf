@@ -61,7 +61,7 @@ Epics wider:
 
 **Bereiche der Anwendung**
 
- # | Epic                 | Beschreibung
+Nr.| Epic                 | Beschreibung
 ---|----------------------|-------------
  1 | E-Mail und Postfach  | Alle Funktionalitäten, die mit dem Verbinden zu Postfächern oder dem Abrufen und Anzeigen von E-Mails zu tun haben.
  2 | Archivierung als PDF | Alle Funktionalitäten, die mit der Auswahl und der Archivierung von E-Mails als PDF zu tun haben.
@@ -80,22 +80,22 @@ Sprache (Gerkin) formuliert, um diese als automatisierte Tests realisieren zu k�
 
 #### E-Mail und Postfach
 
- # User Story ID | User Story | Akzeptanzkriterien
------------------|------------|-------------------
- E01.01          |
+ User Story ID | User Story | Akzeptanzkriterien
+---------------|------------|-------------------
+ E01.01        |            |
  
 
 #### Archivierung als PDF
 
- # User Story ID | User Story | Akzeptanzkriterien
------------------|------------|-------------------
- E02.01          |
+ User Story ID | User Story | Akzeptanzkriterien
+---------------|------------|-------------------
+ E02.01        |            | 
 
 
 #### Konfigurationen
 
- # User Story ID | User Story | Akzeptanzkriterien
------------------|------------|-------------------
- E03.01          |
+ User Story ID | User Story | Akzeptanzkriterien
+---------------|------------|-------------------
+ E03.01        |            | 
 
 
