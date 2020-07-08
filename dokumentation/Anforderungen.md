@@ -38,19 +38,64 @@ Testbarkeit          | 10          | Die Anwendung und ihre Bestandteile müssen
 
 Merkmale           | Beschreibung
 -------------------|-------------
-Hardware           | Die Hardware sollte nicht älter als 5 Jahre sein (Stand 2020).
+Hardware           | Die Hardware ist nicht älter als 5 Jahre sein (Stand 2020).
 Betriebssystem     | Es sollen mindestens folgende Betriebssysteme unterstützt werden: Windows 7, Windows 10, Linux Mint 19.3.
-Datenbank          | Es soll eine embedded H2 Datenbank zum Einsatz kommen, um die Templates und die Einstellungen zu speichern.
-Programmiersprache | Die Anwendung wird mit Java realisiert.
-Bibliotheken       | Für den Zugriff auf die E-Mail Postfächer, sowie für die Erstellung von PDFs sollen geeigente Bibliotheken genutzt werden, um den Entwicklungsaufwand zu reduzieren. Für die Benutzeroberfläche soll JavaFX genutzt werden.
-Versionsverwaltung | Als Versionsverwaltung wird GitHub eingesetzt
-Testwerkzeuge      | Folgende Testwerkzeuge sollen eingesetzt werden: JUnit für reine Modultests, Cucumber und Serenity für Akzeptanztests.
+Datenbank          | Es steht keine zentrale Datenbank zur Verfügung.
+Programmiersprache | Es wird keine spezielle Programmiersprache erwartet.
 
 #### Organisatorisch
 
 Merkmale           | Beschreibung
 -------------------|-------------
 Termine            | Die Termine aus dem Vision&Scope Dokument Abschnitt [Projektpriorität](Vision-Scope-Dokument.md#Projektpriorität) müssen eingehalten werden.
-Sprache            | Die Sprache aller Dokumente, sowie der JavaDoc Kommentar ist Deutsch.
+Sprache            | Die Sprache aller Dokumente, sowie der technischen Dokumentation ist Deutsch.
 Vorgehensweise     | Alle Aufgaben werden in einem GitHub Projekt erstellt und abgearbeitet. Fehler werden über entsprechende Bug-Tickets auf GitHub gemeldet. Verbesserungsvorschläge werden über entsprechende Feature-Tickets auf GitHub gemeldet.
 Abnahme von Tests  | Eine erfolgreiche Abnahme ist dann gegeben, wenn durch den SonarCube keine gravierenden Mängel mehr festgestellt werden.
+
+## Funktionale Anforderungen
+
+### Übersicht der Epics
+
+Die Funktionen der Anwendung sind in verschiedene Bereiche aufgeteilt. Diese Bereiche spiegeln sich in den nachstehenden
+Epics wider:
+
+**Bereiche der Anwendung**
+
+ # | Epic                 | Beschreibung
+---|----------------------|-------------
+ 1 | E-Mail und Postfach  | Alle Funktionalitäten, die mit dem Verbinden zu Postfächern oder dem Abrufen und Anzeigen von E-Mails zu tun haben.
+ 2 | Archivierung als PDF | Alle Funktionalitäten, die mit der Auswahl und der Archivierung von E-Mails als PDF zu tun haben.
+ 3 | Konfigurationen      | Alle Funktionalitäten, die mit Konfigurationen im Allgemeinen zu tun haben, ohne direkt zu den beiden anderen Bereichen zu gehören. 
+
+### Übersicht der User Stories
+
+Die Anforderungen an die **Mail to PDF** Anwendung, die den fachlichen Umfang betreffen, sind nachfolgend in der 
+übrlichen Form aus Sicht der nutzenden Personen formuliert, sofern nicht anders angegeben:
+
+_"Als <Stakeholder> möchte ich <Handlung durchführen>, um <gewünschtes Ergebnis zu erzielen>."_
+
+Zu jeder User Story werden entsprechende Akzeptanzkriterien definiert, die die Spezifikation um konkrete Beispiele
+ergänzen und für die Abnahme relevant sind. Dabei werden die Akzeptanzkriterien in einer natürlichsprachigen formalen
+Sprache (Gerkin) formuliert, um diese als automatisierte Tests realisieren zu können.
+
+#### E-Mail und Postfach
+
+ # User Story ID | User Story | Akzeptanzkriterien
+-----------------|------------|-------------------
+ E01.01          |
+ 
+
+#### Archivierung als PDF
+
+ # User Story ID | User Story | Akzeptanzkriterien
+-----------------|------------|-------------------
+ E02.01          |
+
+
+#### Konfigurationen
+
+ # User Story ID | User Story | Akzeptanzkriterien
+-----------------|------------|-------------------
+ E03.01          |
+
+
