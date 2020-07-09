@@ -78,30 +78,28 @@ Zu jeder User Story werden entsprechende Akzeptanzkriterien definiert, die die S
 ergänzen und für die Abnahme relevant sind. Dabei werden die Akzeptanzkriterien in einer natürlichsprachigen formalen
 Sprache (Gherkin) formuliert, um diese als automatisierte Tests realisieren zu können.
 
-#### Release 1
+#### E-Mail und Postfach
 
-**E-Mail und Postfach**
+ User Story ID | Priorität | User Story | Akzeptanzkriterien
+---------------|-----------|------------|-------------------
+ E01.01        | 1         | Als Nutzer der Anwendung möchte ich nach dem Start der Anwendung eine Anmeldemaske für ein E-Mail Postfach sehen, um mich über diese Maske an einem Postfach anzumelden. | 1. Eingabefelder für Anmeldung am E-Mail Postfach stehen zur Verfügung. <hr/> 2. Nutzer meldet sich erfolgreich an einem E-Mail Postfach an.
+ E01.02        | 5         | Als Nutzer der Anwendung möchte ich bei einer misslungenen Anmeldung einen Fehlerhinweis erhalten. | Nutzer bekommt einen Hinweis angezeigt, wenn die Anmeldung fehl schlägt.
+ E01.03        | 3         | Als Nutzer der Anwendung möchte ich, dass nach erfolgreicher Anmeldung alle E-Mail Köpfe automatisch angezeigt werden. | Anzeige aller E-Mail Köpfe nach erfolgreicher Anmeldung 
 
- User Story ID | User Story | Akzeptanzkriterien
----------------|------------|-------------------
- E01.01        | Als Nutzer der Anwendung möchte ich nach dem Start der Anwendung eine Anmeldemaske für ein E-Mail Postfach sehen, um mich über diese Maske an dem Postfach anzumelden. | ```
- Szenario: Eingabefelder für Anmeldung am E-Mail Postfach stehen zur Verfügung
- Wenn ich die Mail to PDF Anwendung starte
- Dann sehe ich einen Anmeldebereich für mein E-Mail Postfach 
- ```
- 
+#### Archivierung als PDF
 
-**Archivierung als PDF**
+ User Story ID | Priorität | User Story | Akzeptanzkriterien
+---------------|-----------|------------|-------------------
+ E02.01        | 1         | Als Nutzer der Anwendung möchte ich mehrere E-Mails markieren können, um beim Archivieren mehrerer E-Mails Zeit eingespart wird. | 1. Nutzer markiert mehrere E-Mails. <hr/> 2. Nutzer entfernt Markierung von bereits markierten E-Mails.
+ E02.02        | 1         | Als Nutzer der Anwendung möchte ich alle markierten E-Mails als PDF exportieren können. | 1. Archivierung von mehreren E-Mails ohne Anhang in Abhängigkeit des vorkonfigurierten Dateinamen Templates. <hr/> 2. Archivierung mehrerer E-Mails mit Anhang in Abhängigkeit des vorkonfigurierten Dateinamen Templates. <hr/> 3. Export zweier E-Mails deren generierter Dateiname identisch ist und eine Laufende Nummer erzeugt wird.
+ E02.03        | 3         | Als Nutzer der Anwendung erwarte ich bei entsprechender Konfiguration, dass erfolgreich archivierte E-Mails aus dem Postfach gelöscht werden. | Sofern in der Konfiguration das Löschen aktiviert ist, werden archivierte E-Mails gelöscht.
 
- User Story ID | User Story | Akzeptanzkriterien
----------------|------------|-------------------
- E02.01        |            | 
+#### Konfigurationen
 
-
-**Konfigurationen**
-
- User Story ID | User Story | Akzeptanzkriterien
----------------|------------|-------------------
- E03.01        |            | 
+ User Story ID | Priorität | User Story | Akzeptanzkriterien
+---------------|-----------|------------|-------------------
+ E03.01        | 3         | Als Nutzer der Anwendung möchte ich Templates für Dateinamen der archivierten Dateien erstellen | Erstellung und Speicherung eines neuen Templates für Dateinamen.
+ E03.02        | 1         | Als Nutzer der Anwendung möchte ich vorhandene Templates für Dateinamen der archivierten Dateien einsehen können | Anzeige vorhandener Templates für Dateinamen.
+ E03.03        | 4         | Als Nutzer der Anwendung möchte ich vorhandene Templates für Dateinamen der archivierten Dateien löschen können | Löschen eines vorhandenen Templates.
 
 
