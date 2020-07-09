@@ -76,23 +76,32 @@ _"Als <Stakeholder> möchte ich <Handlung durchführen>, um <gewünschtes Ergebn
 
 Zu jeder User Story werden entsprechende Akzeptanzkriterien definiert, die die Spezifikation um konkrete Beispiele
 ergänzen und für die Abnahme relevant sind. Dabei werden die Akzeptanzkriterien in einer natürlichsprachigen formalen
-Sprache (Gerkin) formuliert, um diese als automatisierte Tests realisieren zu können.
+Sprache (Gherkin) formuliert, um diese als automatisierte Tests realisieren zu können.
 
-#### E-Mail und Postfach
+#### Release 1
+
+**E-Mail und Postfach**
 
  User Story ID | User Story | Akzeptanzkriterien
 ---------------|------------|-------------------
- E01.01        |            |
+ E01.01        | 
+ Als Nutzer der Anwendung möchte ich nach dem Start der Anwendung eine Anmeldemaske für ein E-Mail Postfach sehen, 
+ um mich über diese Maske an dem Postfach anzumelden. |
+ ```
+ Szenario: Eingabefelder für Anmeldung am E-Mail Postfach stehen zur Verfügung
+ Wenn ich die Mail to PDF Anwendung starte
+ Dann sehe ich einen Anmeldebereich für mein E-Mail Postfach 
+ ```
  
 
-#### Archivierung als PDF
+**Archivierung als PDF**
 
  User Story ID | User Story | Akzeptanzkriterien
 ---------------|------------|-------------------
  E02.01        |            | 
 
 
-#### Konfigurationen
+**Konfigurationen**
 
  User Story ID | User Story | Akzeptanzkriterien
 ---------------|------------|-------------------
