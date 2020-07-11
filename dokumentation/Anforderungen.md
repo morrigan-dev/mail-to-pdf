@@ -102,19 +102,19 @@ Sprache (Gherkin) formuliert, um diese als automatisierte Tests realisieren zu k
  E03.02        | 1         | Als Nutzer der Anwendung möchte ich vorhandene Templates für Dateinamen der archivierten Dateien einsehen können | Anzeige vorhandener Templates für Dateinamen.
  E03.03        | 4         | Als Nutzer der Anwendung möchte ich vorhandene Templates für Dateinamen der archivierten Dateien löschen können | Löschen eines vorhandenen Templates.
 
-### Übersicht der informellen Anwendungsfälle
+### Übersicht der Anwendungsfälle
 
 Die User Storys dienen dazu die Welt des Kunden besser zu verstehen. Um aber einen besseren Einblick in die konkreten 
 Arbeitsschritte für eine Aufgabe oder einen Kundenwunsch zu erhalten, werden Anwendungsfälle erstellt. Die 
 Anwendungsfälle bilden einen kompletten Arbeitsprozess ab und kann daher mehrere User Storys abdecken. Jeder
 Anwendungsfall wird im Anschluss durch ein UML Use Case Diagramm visualisiert.
 
-#### E-Mail und Postfach
+![Anwendungsfalldiagramm](images/uml/anwendungsfaelle.png)
 
 **Name:** E-Mail Archivierung<br />
-**Kurzbeschreibung:** Archivierung von E-Mails und deren Anhänge als PDFs auf dem Dateisystem
+**Kurzbeschreibung:** Archivierung von E-Mails und deren Anhänge als PDFs auf dem Dateisystem<br />
 **Nr.** IA01.01<br />
-**Vorbedingung:** Der Nutzer besitzt ein gültiges E-Mail Postfach.
+**Vorbedingung:** Der Nutzer besitzt ein gültiges E-Mail Postfach.<br />
 **Nachbedingung:** In Abhängigkeit der Konfiguration sind alle archivierten E-Mails aus dem Postfach des Nutzers gelöscht.
 
 Vorhaben des Anwenders                                             | Verantwortlichkeit des Systems
@@ -122,14 +122,4 @@ Vorhaben des Anwenders                                             | Verantwortl
 Nutzer meldet sich über Anmeldemaske an seinem E-Mail Postfach an. | Anwendung übermittelt die Anmeldedaten an das E-Mail Postfach System des Nutzers.<br />Anwendung ruft alle E-Mail Köpfe ab und zeigt diese an.
 Nutzer wählt eine oder mehrere E-Mails aus.                        | Anwendung kennzeichnet alle vom Nutzer ausgewählten E-Mails.
 Nutzer stößt die Archivierung der E-Mails an.                      | Anwendung ruft zu den markierten E-Mails alle Informationen vom Postfach System ab.<br />Anwendung erzeugt  pro E-Mail eine PDF Datei mit dem Inhalt der E-Mail und vergibt einen Dateinamen, der der Vorlage aus der Konfiguration entspricht.<br />Anwendung speichert alle erzeugten PDFs unter dem Pfad, der in der Konfiguration hinterlegt ist.<br />In Abhängigkeit der Konfiguration werden alle erfolgreich archivierten E-Mails aus dem Postfach System gelöscht.
-
-TODO Diagramm erstellen
-
-**Name:** Archivierung von E-Mails als PDF (US: E02.01, E02.02, E02.03)<br />
-**Nr.** IA02.01<br />
-**Grundlegender Ablauf**<br />
-
-- Nutzer wählt eine oder mehrere E-Mails aus
-- Nutzer stößt über einen Button die Archivierung der E-Mails an
-- Anwendung nimmt aus der Menge der markierten E-Mails die erste heraus und 
 
