@@ -111,14 +111,17 @@ Anwendungsfall wird im Anschluss durch ein UML Use Case Diagramm visualisiert.
 
 #### E-Mail und Postfach
 
-**Name:** Anmeldung an einem vorhanden E-Mail Postfach (US: E01.01, E01.03)<br />
+**Name:** E-Mail Archivierung<br />
+**Kurzbeschreibung:** Archivierung von E-Mails und deren Anhänge als PDFs auf dem Dateisystem
 **Nr.** IA01.01<br />
-**Grundlegender Ablauf**<br />
+**Vorbedingung:** Der Nutzer besitzt ein gültiges E-Mail Postfach.
+**Nachbedingung:** In Abhängigkeit der Konfiguration sind alle archivierten E-Mails aus dem Postfach des Nutzers gelöscht.
 
-- Nutzer startet die Anwendung Mail to PDF.
-- Anwendung zeigt eine Anmeldemaske für ein E-Mail Postfach an.
-- Nutzer meldet sich am E-Mail Postfach an mit Hostname, Benutzername und Passwort
-- System zeigt automatisch alle E-Mail Köpfe an.
+Vorhaben des Anwenders                                             | Verantwortlichkeit des Systems
+-------------------------------------------------------------------|-------------------------------
+Nutzer meldet sich über Anmeldemaske an seinem E-Mail Postfach an. | Anwendung übermittelt die Anmeldedaten an das E-Mail Postfach System des Nutzers.<br />Anwendung ruft alle E-Mail Köpfe ab und zeigt diese an.
+Nutzer wählt eine oder mehrere E-Mails aus.                        | Anwendung kennzeichnet alle vom Nutzer ausgewählten E-Mails.
+Nutzer stößt die Archivierung der E-Mails an.                      | Anwendung ruft zu den markierten E-Mails alle Informationen vom Postfach System ab.<br />Anwendung erzeugt  pro E-Mail eine PDF Datei mit dem Inhalt der E-Mail und vergibt einen Dateinamen, der der Vorlage aus der Konfiguration entspricht.<br />Anwendung speichert alle erzeugten PDFs unter dem Pfad, der in der Konfiguration hinterlegt ist.<br />In Abhängigkeit der Konfiguration werden alle erfolgreich archivierten E-Mails aus dem Postfach System gelöscht.
 
 TODO Diagramm erstellen
 
