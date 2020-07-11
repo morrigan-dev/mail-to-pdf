@@ -16,11 +16,11 @@ Aktivitätsdiagramm     |
 
 ### Verfügbare Elemente
 
-Element | Symbol                                                | Beschreibung
---------|-------------------------------------------------------|-------------
-Akteur  | ![Akteur](/images/uml/aktivitaetsdiagramm-akteur.png) | _Wer benutzt das System?_<br />Ein Aktuer kann sein <br /><ul><li>ein Benutzer</li><li>eine Softwate (z.B. Webservice, Programm)</li><li>eine Hardwarekomponente</li></ul>.
+Element | Symbol                                               | Beschreibung
+--------|------------------------------------------------------|-------------
+Akteur  | ![Akteur](images/uml/aktivitaetsdiagramm-akteur.png) | _Wer benutzt das System?_<br />Ein Aktuer kann sein <br /><ul><li>ein Benutzer</li><li>eine Softwate (z.B. Webservice, Programm)</li><li>eine Hardwarekomponente</li></ul>.
 
 
 
 **System**
-![System](/images/uml/aktivitaetsdiagramm-system.png)
+![System](images/uml/aktivitaetsdiagramm-system.png)
