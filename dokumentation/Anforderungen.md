@@ -67,7 +67,7 @@ Nr.| Epic                 | Beschreibung
  2 | Archivierung als PDF | Alle Funktionalitäten, die mit der Auswahl und der Archivierung von E-Mails als PDF zu tun haben.
  3 | Konfigurationen      | Alle Funktionalitäten, die mit Konfigurationen im Allgemeinen zu tun haben, ohne direkt zu den beiden anderen Bereichen zu gehören. 
 
-### Übersicht der User Stories
+### Übersicht der User Storys
 
 Die Anforderungen an die **Mail to PDF** Anwendung, die den fachlichen Umfang betreffen, sind nachfolgend in der 
 übrlichen Form aus Sicht der nutzenden Personen formuliert, sofern nicht anders angegeben:
@@ -102,4 +102,31 @@ Sprache (Gherkin) formuliert, um diese als automatisierte Tests realisieren zu k
  E03.02        | 1         | Als Nutzer der Anwendung möchte ich vorhandene Templates für Dateinamen der archivierten Dateien einsehen können | Anzeige vorhandener Templates für Dateinamen.
  E03.03        | 4         | Als Nutzer der Anwendung möchte ich vorhandene Templates für Dateinamen der archivierten Dateien löschen können | Löschen eines vorhandenen Templates.
 
+### Übersicht der informellen Anwendungsfälle
+
+Die User Storys dienen dazu die Welt des Kunden besser zu verstehen. Um aber einen besseren Einblick in die konkreten 
+Arbeitsschritte für eine Aufgabe oder einen Kundenwunsch zu erhalten, werden Anwendungsfälle erstellt. Die 
+Anwendungsfälle bilden einen kompletten Arbeitsprozess ab und kann daher mehrere User Storys abdecken. Jeder
+Anwendungsfall wird im Anschluss durch ein UML Use Case Diagramm visualisiert.
+
+#### E-Mail und Postfach
+
+**Name:** Anmeldung an einem vorhanden E-Mail Postfach (US: E01.01, E01.03)<br />
+**Nr.** IA01.01<br />
+**Grundlegender Ablauf**<br />
+
+- Nutzer startet die Anwendung Mail to PDF.
+- Anwendung zeigt eine Anmeldemaske für ein E-Mail Postfach an.
+- Nutzer meldet sich am E-Mail Postfach an mit Hostname, Benutzername und Passwort
+- System zeigt automatisch alle E-Mail Köpfe an.
+
+TODO Diagramm erstellen
+
+**Name:** Archivierung von E-Mails als PDF (US: E02.01, E02.02, E02.03)<br />
+**Nr.** IA02.01<br />
+**Grundlegender Ablauf**<br />
+
+- Nutzer wählt eine oder mehrere E-Mails aus
+- Nutzer stößt über einen Button die Archivierung der E-Mails an
+- Anwendung nimmt aus der Menge der markierten E-Mails die erste heraus und 
 
