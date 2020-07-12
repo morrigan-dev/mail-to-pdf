@@ -41,7 +41,8 @@ _Lösung_
 
 ![Rechner herunterfahren Use Case Diagramm](images/uml/rechner-herunterfahren.png)
 
-**Aufgabe 2: Geldautomat
+**Aufgabe 2: Geldautomat**
+
 Ein Kunde kann am Geldautomat seinen Kontostand abfragen oder Geld abheben (ab 50 Euro in 50-Euro-Schritten).<br />
 Der Kunde braucht eine Bankkarte und eine PIN (personal identification number), um das System nutzen zu können.<br />
 Das System verbindet sich mit einem zentralen Bankserver um Details zu Kunde und Konto zu erfahren (Kontostand, korrekte Geheimzahl etc.).<br />
