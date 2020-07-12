@@ -102,7 +102,7 @@ Sprache (Gherkin) formuliert, um diese als automatisierte Tests realisieren zu k
  E03.02        | 1         | Als Nutzer der Anwendung möchte ich vorhandene Templates für Dateinamen der archivierten Dateien einsehen können | Anzeige vorhandener Templates für Dateinamen.
  E03.03        | 4         | Als Nutzer der Anwendung möchte ich vorhandene Templates für Dateinamen der archivierten Dateien löschen können | Löschen eines vorhandenen Templates.
 
-### Übersicht der Anwendungsfälle
+### Übersicht der grundlegenden Anwendungsfälle
 
 Die User Storys dienen dazu die Welt des Kunden besser zu verstehen. Um aber einen besseren Einblick in die konkreten 
 Arbeitsschritte für eine Aufgabe oder einen Kundenwunsch zu erhalten, werden Anwendungsfälle erstellt. Die 
@@ -111,15 +111,39 @@ Anwendungsfall wird im Anschluss durch ein UML Use Case Diagramm visualisiert.
 
 ![Anwendungsfalldiagramm](images/uml/anwendungsfaelle.png)
 
-**Name:** E-Mail Archivierung<br />
-**Kurzbeschreibung:** Archivierung von E-Mails und deren Anhänge als PDFs auf dem Dateisystem<br />
-**Nr.** IA01.01<br />
+**Name:** E-Mails abrufen<br />
+**Kurzbeschreibung:** Abrufen von E-Mails von einem E-Mail Server für eine spätere Auswahlmöglichkeit.<br />
+**Nr.:** GA01<br />
 **Vorbedingung:** Der Nutzer besitzt ein gültiges E-Mail Postfach.<br />
-**Nachbedingung:** In Abhängigkeit der Konfiguration sind alle archivierten E-Mails aus dem Postfach des Nutzers gelöscht.
+**Nachbedingung:** keine
 
-Vorhaben des Anwenders                                             | Verantwortlichkeit des Systems
--------------------------------------------------------------------|-------------------------------
-Nutzer meldet sich über Anmeldemaske an seinem E-Mail Postfach an. | Anwendung übermittelt die Anmeldedaten an das E-Mail Postfach System des Nutzers.<br />Anwendung ruft alle E-Mail Köpfe ab und zeigt diese an.
-Nutzer wählt eine oder mehrere E-Mails aus.                        | Anwendung kennzeichnet alle vom Nutzer ausgewählten E-Mails.
-Nutzer stößt die Archivierung der E-Mails an.                      | Anwendung ruft zu den markierten E-Mails alle Informationen vom Postfach System ab.<br />Anwendung erzeugt  pro E-Mail eine PDF Datei mit dem Inhalt der E-Mail und vergibt einen Dateinamen, der der Vorlage aus der Konfiguration entspricht.<br />Anwendung speichert alle erzeugten PDFs unter dem Pfad, der in der Konfiguration hinterlegt ist.<br />In Abhängigkeit der Konfiguration werden alle erfolgreich archivierten E-Mails aus dem Postfach System gelöscht.
+Vorhaben des Anwenders                    | Verantwortlichkeit des Systems
+------------------------------------------|-------------------------------
+Nutzer startet die Mail to PDF Anwendung. | Anwendung zeigt nach dem Starten eine Anmeldemaske für ein E-Mail Postfach an.          
+Nutzer gibt seine Anmeldedaten in die Anmeldemaske ein und startet den Anmeldevorgang | Anwendung übermittelt die Anmeldedaten an den E-Mail Server.<br />Wenn der Anmeldevorgang fehl schlägt, dann zeigt die Anwendung einen entsprechenden Hinweis dem Nutzer. <br /> Wenn die Anmeldung erfolgreich war, werden alle E-Mail Köpfe abgerufen und angezeigt.
+
+**Name:** E-Mails archivieren<br />
+**Kurzbeschreibung:** Auswahl und Archivierung von E-Mails als PDFs und herunterladen evtl. vorhandener Anhänge.<br />
+**Nr.:** GA02<br />
+**Vorbedingung:** keine
+**Nachbedingung:** keine
+
+Vorhaben des Anwenders                      | Verantwortlichkeit des Systems
+--------------------------------------------|-------------------------------
+Nutzer wählt eine oder mehrere E-Mails aus. | Anwendung markiert die vom Nutzer ausgewählten E-Mails.
+Nutzer startet den Archivierungsvorgang.    | Anwendung lädt jede markierte E-Mail vollständig vom E-Mail Server herunter.<br />Jeder E-Mail Inhalt wird in ein eigenes PDF-Dokument konvertiert.<br /> Alle Dateien erhalten einen Dateinamen, der durch ein Template aus dem Konfigurationsbereich bestimmt wird.<br /> Die Dateien werden unter einem Pfad abgelegt, der im Konfigurationsbereich hinterlegt wurde.<br />Die Anwendung meldet dem Nutzer das Ergebnis der Archivierung mit.
+
+**Name:** Dateiname Vorlage erstellen<br />
+**Kurzbeschreibung:** Erstellung einer Vorlage für Dateinamen von PDF Dateien und Anhängen.<br />
+**Nr.:** GA03<br />
+**Vorbedingung:** keine
+**Nachbedingung:** keine
+
+Vorhaben des Anwenders                    | Verantwortlichkeit des Systems
+------------------------------------------|-------------------------------
+Nutzer startet die Mail to PDF Anwendung und wechselt in den Konfigurationsbereich für Dateinamen Vorlagen. | Anwendung zeigt alle vorhandenen Vorlagen an.  
+Nutzer erstellt eine neue Vorlage.        | Anwendung erstellt eine neue leere Vorlage und bietet dem Nutzer folgende Parameter für die Vorlage an: <ul><li>Empfangsdatum</li><li>Sendedatum</li><li>Empfänger</li><li>Weitere Empfänger</li><li>Absender</li><li>Betreff</li></ul>
+Nutzer vergibt der Vorlage einen eindeutigen Namen und wählt einen oder mehrere Parameter aus und kann nocht weitere statische Informationen in die Vorlage schreiben.<br />Nutzer speichert die Vorlage | Anwendung speichert die vom Nutzer erstellte Vorlage und zeigt diese unter den verfügbaren an.
+Nutzer wählt unter den verfügbaren Vorlagen die neu erstellte Vorlage aus, die als Standard-Vorlage künftig genutzt werden soll. | Anwendung kennzeichnet die neue Vorlage als Standard-Vorlage und speichert diese Information ebenfalls ab.
+
 
