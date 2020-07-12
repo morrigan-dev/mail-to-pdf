@@ -160,7 +160,7 @@ Vorhaben des Anwenders                    | Verantwortlichkeit des Systems
 ------------------------------------------|-------------------------------
 Nutzer startet die Mail to PDF Anwendung und wechselt in den Konfigurationsbereich für Dateinamen Vorlagen. | Anwendung zeigt alle vorhandenen Vorlagen an.
 Nutzer wählt eine oder mehrere Vorlagen aus. | Anwendung markiert die vom Nutzer ausgewählten Vorlagen.
-Nutzer startet die Löschung.              | Anwendung löscht alle markierten Vorlagen aus dem System und aktualisiert die Anzeige.
+Nutzer startet die Löschung.              | Anwendung löscht alle markierten Vorlagen aus dem System unter Berücksichtigung der Regel R-01 und aktualisiert die Anzeige.
 
 
 **Name:** Speicherort verwalten<br />
@@ -173,3 +173,33 @@ Vorhaben des Anwenders                    | Verantwortlichkeit des Systems
 ------------------------------------------|-------------------------------
 Nutzer startet die Mail to PDF Anwendung und wechselt in den Konfigurationsbereich für den Speicherort der archivierten Dateien. | Anwendung zeigt den aktuellen Speicherort an.
 Nutzer gibt einen neuen Speicherort an.   | Anwendung speichert neuen Speicherort.
+
+
+## Regeln
+
+Nr.  | Typ           | statisch / dynamisch | Quelle   | Regel
+-----|---------------|----------------------|----------|-------
+R-01 | Randbedingung | statisch             | Vorlagen | Die Default-Vorlage kann nicht gelöscht werden, damit immer mindestens eine Vorlage für Dateinamen existiert.
+
+
+## Interface-Beschreibungen
+
+Die Mail to PDF Anwendung baut eine Verbindung zu einem, vom Benutzer hinterlegten, E-Mail Server auf. Dabei kann die
+Verbindung auf einem POP3 oder einem IMAP Protokoll basieren.<br />
+Des Weiteren werden Dateien auf eine Festplatte geschrieben. Hierbei kommt primär das Format PDF zum Einsatz. Anhänge,
+die an den E-Mails hängen können, werden ohne weitere Konvertierung heruntergeladen und auf dem Dateisystem gespeichert.
+
+
+## Datendefinitionen
+  
+_Wird in der Analyse befüllt_
+
+## Lösungsideen
+
+* Die Anmeldemaske für den E-Mail Server kann direkt im Hauptdialog angezeigt werden.
+* Die Anmeldemaske sollte folgende Elemente enthalten: Server, Benutzername, Passwort, Anmelden Button, Abmelden Button, Anzeige mit aktuellen Verbindungsstatus.
+* Unter der Anmeldemaske sollte für die E-Mails eine Tabelle mit den E-Mail Nachtichten angezeigt werden.
+* Die Konfigurationen sollen in einem eigenen Dialog angezeigt werden.
+
+
+
