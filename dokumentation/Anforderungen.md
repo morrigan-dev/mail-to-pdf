@@ -111,6 +111,7 @@ Anwendungsfall wird im Anschluss durch ein UML Use Case Diagramm visualisiert.
 
 ![Anwendungsfalldiagramm](images/uml/anwendungsfaelle.png)
 
+<hr>
 
 **Name:** E-Mails abrufen<br />
 **Kurzbeschreibung:** Ein Benutzer kann sich an einem E-Mail Server anmelden und E-Mails abrufen.<br />
@@ -123,6 +124,7 @@ Vorhaben des Anwenders                    | Verantwortlichkeit des Systems
 Nutzer startet die Mail to PDF Anwendung. | Anwendung zeigt nach dem Starten eine Anmeldemaske für ein E-Mail Postfach an.          
 Nutzer gibt seine Anmeldedaten in die Anmeldemaske ein und startet den Anmeldevorgang | <ul><li>Anwendung übermittelt die Anmeldedaten an den E-Mail Server.</li><li>Wenn der Anmeldevorgang fehl schlägt, dann zeigt die Anwendung einen entsprechenden Hinweis dem Nutzer.</li><li>Wenn die Anmeldung erfolgreich war, werden alle E-Mail Köpfe abgerufen und angezeigt.</li></ul>
 
+<hr>
 
 **Name:** E-Mails archivieren<br />
 **Kurzbeschreibung:** Ein Benutzer kann E-Mails auswählen und diese als PDFs zusammen mit den herunterladenen Anhängen archivieren.<br />
@@ -135,6 +137,7 @@ Vorhaben des Anwenders                      | Verantwortlichkeit des Systems
 Nutzer wählt eine oder mehrere E-Mails aus. | Anwendung markiert die vom Nutzer ausgewählten E-Mails.
 Nutzer startet den Archivierungsvorgang.    | <ul><li>Anwendung lädt jede markierte E-Mail vollständig vom E-Mail Server herunter.</li><li>Jeder E-Mail Inhalt wird in ein eigenes PDF-Dokument konvertiert.</li><li>Alle Dateien erhalten einen Dateinamen, der durch ein Template aus dem Konfigurationsbereich bestimmt wird.</li><li>Die Dateien werden unter einem Pfad abgelegt, der im Konfigurationsbereich hinterlegt wurde.</li><li>Die Anwendung meldet dem Nutzer das Ergebnis der Archivierung mit.</li></ul>
 
+<hr>
 
 **Name:** Dateiname Vorlage erstellen<br />
 **Kurzbeschreibung:** Ein Benutzer kann eine Vorlage für Dateinamen der PDF Dateien und Anhängen erstellen.<br />
@@ -149,6 +152,7 @@ Nutzer erstellt eine neue Vorlage.        | Anwendung erstellt eine neue leere V
 Nutzer vergibt der Vorlage einen eindeutigen Namen, wählt einen oder mehrere Parameter aus sowie noch weitere statische Informationen und speichert die Vorlage ab. | Anwendung speichert die vom Nutzer erstellte Vorlage und zeigt diese unter den verfügbaren an.
 Nutzer wählt unter den verfügbaren Vorlagen die neu erstellte Vorlage aus, die als Standard-Vorlage künftig genutzt werden soll. | Anwendung kennzeichnet die neue Vorlage als Standard-Vorlage und speichert diese Information ebenfalls ab.
 
+<hr>
 
 **Name:** Dateiname Vorlage löschen<br />
 **Kurzbeschreibung:** Ein Benutzer kann eine Vorlage für Dateinamen der PDF Dateien und Anhängen löschen<br />
@@ -162,6 +166,7 @@ Nutzer startet die Mail to PDF Anwendung und wechselt in den Konfigurationsberei
 Nutzer wählt eine oder mehrere Vorlagen aus. | Anwendung markiert die vom Nutzer ausgewählten Vorlagen.
 Nutzer startet die Löschung.              | Anwendung löscht alle markierten Vorlagen aus dem System unter Berücksichtigung der Regel R-01 und aktualisiert die Anzeige.
 
+<hr>
 
 **Name:** Speicherort verwalten<br />
 **Kurzbeschreibung:** Ein Nutzer kann den Speicherort, an dem die archivierten Dateien abgelegt werden einstellen.<br />
