@@ -143,7 +143,7 @@ Vorhaben des Anwenders                    | Verantwortlichkeit des Systems
 ------------------------------------------|-------------------------------
 Nutzer startet die Mail to PDF Anwendung und wechselt in den Konfigurationsbereich für Dateinamen Vorlagen. | Anwendung zeigt alle vorhandenen Vorlagen an.  
 Nutzer erstellt eine neue Vorlage.        | Anwendung erstellt eine neue leere Vorlage und bietet dem Nutzer folgende Parameter für die Vorlage an: <ul><li>Empfangsdatum</li><li>Sendedatum</li><li>Empfänger</li><li>Weitere Empfänger</li><li>Absender</li><li>Betreff</li></ul>
-<ul><li>Nutzer vergibt der Vorlage einen eindeutigen Namen und wählt einen oder mehrere Parameter aus und kann nocht weitere statische Informationen in die Vorlage schreiben.</li><li>Nutzer speichert die Vorlage.</li></ul> | Anwendung speichert die vom Nutzer erstellte Vorlage und zeigt diese unter den verfügbaren an.
+ <ul><li>Nutzer vergibt der Vorlage einen eindeutigen Namen und wählt einen oder mehrere Parameter aus und kann nocht weitere statische Informationen in die Vorlage schreiben.</li><li>Nutzer speichert die Vorlage.</li></ul> | Anwendung speichert die vom Nutzer erstellte Vorlage und zeigt diese unter den verfügbaren an.
 Nutzer wählt unter den verfügbaren Vorlagen die neu erstellte Vorlage aus, die als Standard-Vorlage künftig genutzt werden soll. | Anwendung kennzeichnet die neue Vorlage als Standard-Vorlage und speichert diese Information ebenfalls ab.
 
 
