@@ -27,3 +27,35 @@ Element                 | Symbol                                                
 **Generalisierung bei Akteuren** | ![System](images/uml/aktivitaetsdiagramm-akteur-generalisierung.png) | Aktuere können ebenfalls von anderen Aktueren erben. In diesem Fall nutzen die Spezialisierungen alle Anwendungsfälle, die auch durch die Generalisierung genutzt werden. In dem Beispiel kann X nur von A genutzt werden. Während Y sowohl von B als auch von A genutzt werden kann. XOR Beziehungen werden ebenfalls mit Generalisierung realisiert, indem die beiden "Oder" Aktuere von einem weiteren Akteur erbt, der dann abstrakt sein kan und einen Anwendungsfall nutzt.  
 **System**              | ![System](images/uml/aktivitaetsdiagramm-system.png)         | _Was wird beschrieben?_<br />Gibt das System an mit dem ein Akteur interagiert und in dem die Anwendungsfälle ablaufen.
 **Notiz**               | ![System](images/uml/aktivitaetsdiagramm-notiz.png)          | Notizen sind möglich sollten aber auf keinen Fall den Anwendungsfall beschreiben, da die Beschreibung von Anwendungsfällen viel zu lange ist für eine Notiz.
+
+### Übungen
+
+**Aufgabe 1: "Rechner herunterfahren"**
+
+Sie fahren Ihren Rechner herunter, indem Sie "Start -> "Herunterfahren" wählen.<br />
+Das System beendet dann alle Programme und fährt herunter.<br />
+Manchmal kommt es vor, dass ein Programm abstürzt und das System nicht heruntergefahren werden kann. Dann erhält der 
+User den "Sofort beenden" Dialog.
+
+_Lösung_
+
+![Rechner herunterfahren Use Case Diagramm](images/uml/rechner-herunterfahren.png)
+
+**Aufgabe 2: Geldautomat
+Ein Kunde kann am Geldautomat seinen Kontostand abfragen oder Geld abheben (ab 50 Euro in 50-Euro-Schritten).<br />
+Der Kunde braucht eine Bankkarte und eine PIN (personal identification number), um das System nutzen zu können.<br />
+Das System verbindet sich mit einem zentralen Bankserver um Details zu Kunde und Konto zu erfahren (Kontostand, korrekte Geheimzahl etc.).<br />
+Der Geldautomat stellt keine Quittungen aus.<br />
+Der Geldautomat wird von professionellem Servicepersonal gewartet.
+
+_Lösung_
+
+![Geldautomat Use Case Diagramm](images/uml/geldautomat.png)
+
+
+## Klassendiagramm
+
+### Verfügbare Elemente
+
+Element                 | Symbol                                                       | Beschreibung
+------------------------|:------------------------------------------------------------:|-------------
