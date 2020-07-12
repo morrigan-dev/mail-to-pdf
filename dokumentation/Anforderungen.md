@@ -120,7 +120,7 @@ Anwendungsfall wird im Anschluss durch ein UML Use Case Diagramm visualisiert.
 Vorhaben des Anwenders                    | Verantwortlichkeit des Systems
 ------------------------------------------|-------------------------------
 Nutzer startet die Mail to PDF Anwendung. | Anwendung zeigt nach dem Starten eine Anmeldemaske für ein E-Mail Postfach an.          
-Nutzer gibt seine Anmeldedaten in die Anmeldemaske ein und startet den Anmeldevorgang | Anwendung übermittelt die Anmeldedaten an den E-Mail Server.<br />Wenn der Anmeldevorgang fehl schlägt, dann zeigt die Anwendung einen entsprechenden Hinweis dem Nutzer. <br /> Wenn die Anmeldung erfolgreich war, werden alle E-Mail Köpfe abgerufen und angezeigt.
+Nutzer gibt seine Anmeldedaten in die Anmeldemaske ein und startet den Anmeldevorgang | <ul><li>Anwendung übermittelt die Anmeldedaten an den E-Mail Server.</li><li>Wenn der Anmeldevorgang fehl schlägt, dann zeigt die Anwendung einen entsprechenden Hinweis dem Nutzer.</li><li>Wenn die Anmeldung erfolgreich war, werden alle E-Mail Köpfe abgerufen und angezeigt.</li></ul>
 
 **Name:** E-Mails archivieren<br />
 **Kurzbeschreibung:** Auswahl und Archivierung von E-Mails als PDFs und herunterladen evtl. vorhandener Anhänge.<br />
@@ -131,7 +131,7 @@ Nutzer gibt seine Anmeldedaten in die Anmeldemaske ein und startet den Anmeldevo
 Vorhaben des Anwenders                      | Verantwortlichkeit des Systems
 --------------------------------------------|-------------------------------
 Nutzer wählt eine oder mehrere E-Mails aus. | Anwendung markiert die vom Nutzer ausgewählten E-Mails.
-Nutzer startet den Archivierungsvorgang.    | Anwendung lädt jede markierte E-Mail vollständig vom E-Mail Server herunter.<br />Jeder E-Mail Inhalt wird in ein eigenes PDF-Dokument konvertiert.<br /> Alle Dateien erhalten einen Dateinamen, der durch ein Template aus dem Konfigurationsbereich bestimmt wird.<br /> Die Dateien werden unter einem Pfad abgelegt, der im Konfigurationsbereich hinterlegt wurde.<br />Die Anwendung meldet dem Nutzer das Ergebnis der Archivierung mit.
+Nutzer startet den Archivierungsvorgang.    | <ul><li>Anwendung lädt jede markierte E-Mail vollständig vom E-Mail Server herunter.</li><li>Jeder E-Mail Inhalt wird in ein eigenes PDF-Dokument konvertiert.</li><li>Alle Dateien erhalten einen Dateinamen, der durch ein Template aus dem Konfigurationsbereich bestimmt wird.</li><li>Die Dateien werden unter einem Pfad abgelegt, der im Konfigurationsbereich hinterlegt wurde.</li><li>Die Anwendung meldet dem Nutzer das Ergebnis der Archivierung mit.</li></ul>
 
 **Name:** Dateiname Vorlage erstellen<br />
 **Kurzbeschreibung:** Erstellung einer Vorlage für Dateinamen von PDF Dateien und Anhängen.<br />
@@ -143,7 +143,7 @@ Vorhaben des Anwenders                    | Verantwortlichkeit des Systems
 ------------------------------------------|-------------------------------
 Nutzer startet die Mail to PDF Anwendung und wechselt in den Konfigurationsbereich für Dateinamen Vorlagen. | Anwendung zeigt alle vorhandenen Vorlagen an.  
 Nutzer erstellt eine neue Vorlage.        | Anwendung erstellt eine neue leere Vorlage und bietet dem Nutzer folgende Parameter für die Vorlage an: <ul><li>Empfangsdatum</li><li>Sendedatum</li><li>Empfänger</li><li>Weitere Empfänger</li><li>Absender</li><li>Betreff</li></ul>
-Nutzer vergibt der Vorlage einen eindeutigen Namen und wählt einen oder mehrere Parameter aus und kann nocht weitere statische Informationen in die Vorlage schreiben.<br />Nutzer speichert die Vorlage | Anwendung speichert die vom Nutzer erstellte Vorlage und zeigt diese unter den verfügbaren an.
+<ul><li>Nutzer vergibt der Vorlage einen eindeutigen Namen und wählt einen oder mehrere Parameter aus und kann nocht weitere statische Informationen in die Vorlage schreiben.</li><li>Nutzer speichert die Vorlage.</li></ul> | Anwendung speichert die vom Nutzer erstellte Vorlage und zeigt diese unter den verfügbaren an.
 Nutzer wählt unter den verfügbaren Vorlagen die neu erstellte Vorlage aus, die als Standard-Vorlage künftig genutzt werden soll. | Anwendung kennzeichnet die neue Vorlage als Standard-Vorlage und speichert diese Information ebenfalls ab.
 
 
