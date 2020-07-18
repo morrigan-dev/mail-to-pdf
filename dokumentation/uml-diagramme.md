@@ -66,9 +66,27 @@ Element                 | Symbol                                                
 
 ### Verfügbare Elemente
 
-Element                 | Symbol                                                        | Beschreibung
-------------------------|:-------------------------------------------------------------:|-------------
-Startzustand            | ![Startzustand](images/uml/zustandsdiagramm-startzustand.png) | Jedes Zustandsdiagramm besitzt genau ein Startzustand, der als Einstieg dient und direkt in einen Folgezustand führt.
-Zustand                 | ![Zustand](images/uml/zustandsdiagramm-zustand.png)           | Ein Zustand bildet eine Situation ab, in der spezielle Bedingungen gelten. Ein Zustand kann Aktivitäten besitzen, wie <ul><li>Eintrittsaktivität (entry)</li><li>Austrittsaktivität (exit)</li><li>Andauernde Aktivität (do)</li><li>Weitere Aktivitäten (eventname)</li></ul>
-Zustandsübergänge       | ![Transition](images/uml/zustandsdiagramm-transition.png)     | Zuständsübergänge (Transitions) gibt an von welchem Zustand mit welchem Ereignis (Event) man in einen anderen Zustandgelangt. Die Übergänge können Bedingungen (Guards) besitzen, sodass nur dann der Übergange erfolgt, wenn die Bedingung zu true ausgewertet wird. Außerdem können bei Übergängen noch Aktionen (Effekte) ausgeführt werden. Es gibt verschiedene Ereignistypen bei Zustandsübergängen. <ul><li>CallEvent → Empfang einer Nachricht (Operationsaufruf)</li><li>SignalEvent → Empfang eines Signals (mouseover)</li><li>ChangeEvent → Eine Bedingung wird wahr (when(x<y)</li><li>TimeEvent → zeitablauf oder Zeitpunkt (after(5 sec)</li></ul>
-Entscheidungsknoten     | ![Entscheidungsknoten](images/uml/zustandsdiagramm-entscheidungsknoten.png) | Entscheidungsknoten können dafür genutzt werden mehrere Verzweigungen mittels einer Bedingung zu ermöglichen. Es gibt jedoch ein Problem, wenn die Bedingungen nicht alle Möglichkeiten abdecken. In so einem Fall würde man in dem Entscheidungsknoten hängen bleiben. Daher sollte immer die äquivalente Schreibweise in wie  folgendem Beispiel gezeigt genutzt werden!<br /> ![Entscheidungsknoten Alternative](images/uml/zustandsdiagramm-Entscheidungsknoten-alternative.png) 
+Element             | Symbol                                                        | Beschreibung
+--------------------|:-------------------------------------------------------------:|-------------
+Startzustand        | ![Startzustand](images/uml/zustandsdiagramm-startzustand.png) | Jedes Zustandsdiagramm besitzt genau ein Startzustand, der als Einstieg dient und direkt in einen Folgezustand führt. Er ist somit ein Pseudozustand in dem nicht verweilt werden kann.
+Zustand             | ![Zustand](images/uml/zustandsdiagramm-zustand.png)           | Ein Zustand bildet eine Situation ab, in der spezielle Bedingungen gelten. Ein Zustand kann Aktivitäten besitzen, wie <ul><li><b>Eintrittsaktivität</b> (entry)</li><li><b>Austrittsaktivität</b> (exit)</li><li><b>Andauernde Aktivität</b> (do)</li><li><b>Weitere Aktivitäten</b> (eventname)</li></ul>
+Zustandsübergänge   | ![Transition](images/uml/zustandsdiagramm-transition.png)     | Zuständsübergänge (Transitions) gibt an von welchem Zustand mit welchem Ereignis (Event) man in einen anderen Zustandgelangt. Die Übergänge können Bedingungen (Guards) besitzen, sodass nur dann der Übergange erfolgt, wenn die Bedingung zu true ausgewertet wird. Außerdem können bei Übergängen noch Aktionen (Effekte) ausgeführt werden. Es gibt verschiedene Ereignistypen bei Zustandsübergängen. <ul><li><b>CallEvent</b> → Empfang einer Nachricht (Operationsaufruf)</li><li><b>SignalEvent</b> → Empfang eines Signals (mouseover)</li><li><b>ChangeEvent</b> → Eine Bedingung wird wahr (when(x<y))</li><li><b>TimeEvent</b> → Zeitablauf oder Zeitpunkt (after(5 sec))</li></ul>
+Entscheidungsknoten | ![Entscheidungsknoten](images/uml/zustandsdiagramm-entscheidungsknoten.png) | Entscheidungsknoten können dafür genutzt werden mehrere Verzweigungen mittels einer Bedingung zu ermöglichen. Es gibt jedoch ein Problem, wenn die Bedingungen nicht alle Möglichkeiten abdecken. In so einem Fall würde man in dem Entscheidungsknoten hängen bleiben. Daher sollte immer die äquivalente Schreibweise in wie  folgendem Beispiel gezeigt genutzt werden!<br /> ![Entscheidungsknoten Alternative](images/uml/zustandsdiagramm-Entscheidungsknoten-alternative.png) 
+Endzustand          | ![Endzustand](images/uml/zustandsdiagramm-endzustand.png)     | Ein Endzustand kann angegeben werden um das Ende eines Lebenszyklus anzugeben (=Destruktor). Er ist ein Zustand in dem verweilt werden kann.
+Terminierungsknoten | ![Terminierungsknoten](images/uml/zustandsdiagramm-terminierungsknoten.png) | Das modellierte Objekt hört auf zu existieren.
+Flacher/tiefer History-Zustand | ![History-zustand](images/uml/zustandsdiagramm-history-zustand.png) | Die History-Zustände geben eine Art Rücksprungadresse an. Es wird sich also der interne Zustand gemerkt und beim nächsten Betreten des Zustands werden die internen Gegebenheiten wiederhergestellt. Dabei wird zwischen flacher und tiefer History unterschieden. Bei der flachen wird nur die erste Ebene gemerkt. Mit einer Zahl oder einem Stern können weitere bis alle internen Ebenen gemerkt werden.
+Parallelisierungsknoten | ![Parallelisierungsknoten](images/uml/zustandsdiagramm-parallelisierungsknoten.png) | Aufspaltung des Knotrollflusses in mehrere parallele Zustände.
+Synchronisierungsknoten | ![Synchronisierungsknoten](images/uml/zustandsdiagramm-synchronisierungsknoten.png) | Zusammenführung des Kontrollflusses von mehreren parallelen Zuständen.
+
+### Ausführungsreihenfolge von Aktivitäten
+
+![Ausführungsreihenvolge von Aktivitäten](images/uml/zustandsdiagramm-aktivitaeten-ausfuehrungsreihenfolge.png)
+
+Event   | Zustand | Variable | Anmerkung
+--------|---------|----------|----------
+"Start" | A       | x=2      |
+e       | A       | x=2      | Es wird immer erst die Bedingung geprüft von einer Überwachungsbedingung. Die exit Aktivität wird also nicht ausgeführt!
+n       | A       | x=4      |
+e       | B       | x=7      | Erst jetzt ist die Überwachungsbedingung true, sodass nun folgende Reihenfolge ausgeführt wird: <ol><li>Ausführung der exit Aktion (x++)</li><li>Ausführung der Übergangsaktivität (x*2)</li><li>Ausführung der Eintrittsaktivität (x=x-3)</li></ol>
+
+
