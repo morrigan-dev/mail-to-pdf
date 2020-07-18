@@ -10,7 +10,7 @@ Anwendungsfalldiagramm | X             | X       |         |              |
 Klassendiagramm        |               |         |         |              |
 Zustandsdiagramm       |               |         |         |              |
 Sequenzdiagramm        |               |         |         |              |
-Aktivitätsdiagramm     |               |         |         |              |
+Aktivitätsdiagramm     |               | X       | X       | x            | X
 
 ## Anwendungsfalldiagramm
 
@@ -60,3 +60,15 @@ _Lösung_
 
 Element                 | Symbol                                                       | Beschreibung
 ------------------------|:------------------------------------------------------------:|-------------
+
+
+## Zustandsdiagramm
+
+### Verfügbare Elemente
+
+Element                 | Symbol                                                        | Beschreibung
+------------------------|:-------------------------------------------------------------:|-------------
+Startzustand            | ![Startzustand](images/uml/zustandsdiagramm-startzustand.png) | Jedes Zustandsdiagramm besitzt genau ein Startzustand, der als Einstieg dient und direkt in einen Folgezustand führt.
+Zustand                 | ![Zustand](images/uml/zustandsdiagramm-zustand.png)           | Ein Zustand bildet eine Situation ab, in der spezielle Bedingungen gelten. Ein Zustand kann Aktivitäten besitzen, wie <ul><li>Eintrittsaktivität (entry)</li><li>Austrittsaktivität (exit)</li><li>Andauernde Aktivität (do)</li><li>Weitere Aktivitäten (eventname)</li></ul>
+Zustandsübergänge       | ![Transition](images/uml/zustandsdiagramm-transition.png)     | Zuständsübergänge (Transitions) gibt an von welchem Zustand mit welchem Ereignis (Event) man in einen anderen Zustandgelangt. Die Übergänge können Bedingungen (Guards) besitzen, sodass nur dann der Übergange erfolgt, wenn die Bedingung zu true ausgewertet wird. Außerdem können bei Übergängen noch Aktionen (Effekte) ausgeführt werden. Es gibt verschiedene Ereignistypen bei Zustandsübergängen. <ul><li>CallEvent → Empfang einer Nachricht (Operationsaufruf)</li><li>SignalEvent → Empfang eines Signals (mouseover)</li><li>ChangeEvent → Eine Bedingung wird wahr (when(x<y)</li><li>TimeEvent → zeitablauf oder Zeitpunkt (after(5 sec)</li></ul>
+Entscheidungsknoten     | ![Entscheidungsknoten](images/uml/zustandsdiagramm-entscheidungsknoten.png) | Entscheidungsknoten können dafür genutzt werden mehrere Verzweigungen mittels einer Bedingung zu ermöglichen. Es gibt jedoch ein Problem, wenn die Bedingungen nicht alle Möglichkeiten abdecken. In so einem Fall würde man in dem Entscheidungsknoten hängen bleiben. Daher sollte immer die äquivalente Schreibweise in wie  folgendem Beispiel gezeigt genutzt werden!<br /> ![Entscheidungsknoten Alternative](images/uml/zustandsdiagramm-Entscheidungsknoten-alternative.png) 
