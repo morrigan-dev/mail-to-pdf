@@ -20,7 +20,7 @@ Anwendungsfalldiagramm |
 Klassendiagramm        |
 Zustandsdiagramm       |
 Sequenzdiagramm        |
-Aktivitätsdiagramm     | <ul><li>Schwerpunkt auf prozedurale Verarbeitungsaspekte, also Reihenfolge von Aktivitäten.</li><li>Spezifikation von Kontroll- und/oder Datenflüssen</li><li>Am Anfang des Software Engineerings:<br/>→ Standardablauf in einem Anwendungsfall<br />→Geschäftsprozess</li><li>Am ende des Software Engineering:<br />→ Ablauf innerhalb einer Methode (Nur die wichtigsten Aspekte!)<br />→ Testabläufe</li></ul>
+Aktivitätsdiagramm     | <ul><li>Schwerpunkt auf prozedurale Verarbeitungsaspekte, also Reihenfolge von Aktivitäten.</li><li>Spezifikation von Kontroll- und/oder Datenflüssen</li><li>Analyse Phase:<br/>→ Standardablauf in einem Anwendungsfall<br />→ Geschäftsprozess</li><li>Designphase:<br />→ Darstellung von Systemverhalten<br />Realsisierungsphase:<br />→ Ablauf innerhalb einer Methode (Nur die wichtigsten Aspekte!)<br />→ Visualisierung komplexer Algorithmen<br />Testphase:<br />→ Ableitung von Testfällen</li></ul>
 
 ## Anwendungsfalldiagramm
 
@@ -108,3 +108,6 @@ Aktivitätsdiagramme werden für die Darstellung prozeduraler Verarbeitungsaspek
 
 Element             | Symbol                                                        | Beschreibung
 --------------------|:-------------------------------------------------------------:|-------------
+
+
+
