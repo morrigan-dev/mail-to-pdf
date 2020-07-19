@@ -7,10 +7,20 @@ Im folgenden werden die verschiedenen UML Diagramme den Phasen des Wasserfall Mo
 Diagramm               | Anforderungen | Analyse | Entwurf | Realisierung | Test
 -----------------------|:-------------:|:-------:|:-------:|:------------:|:---:
 Anwendungsfalldiagramm | X             | X       |         |              |
-Klassendiagramm        |               |         |         |              |
-Zustandsdiagramm       |               |         |         |              |
-Sequenzdiagramm        |               |         |         |              |
+Klassendiagramm        |               | X       | X       | X            |
+Zustandsdiagramm       |               | X       | X       | X            |
+Sequenzdiagramm        |               | X       | X       | X            | X
 Aktivitätsdiagramm     |               | X       | X       | x            | X
+
+## Einsetzbarkeit Thematisch
+
+Diagramm               | Einsatzgebiet
+-----------------------|--------------
+Anwendungsfalldiagramm |
+Klassendiagramm        |
+Zustandsdiagramm       |
+Sequenzdiagramm        |
+Aktivitätsdiagramm     | <ul><li>Schwerpunkt auf prozedurale Verarbeitungsaspekte, also Reihenfolge von Aktivitäten.</li><li>Spezifikation von Kontroll- und/oder Datenflüssen</li><li>Am Anfang des Software Engineerings:<br/>→ Standardablauf in einem Anwendungsfall<br />→Geschäftsprozess</li><li>Am ende des Software Engineering:<br />→ Ablauf innerhalb einer Methode (Nur die wichtigsten Aspekte!)<br />→ Testabläufe</li></ul>
 
 ## Anwendungsfalldiagramm
 
@@ -90,3 +100,11 @@ n       | A       | x=4      |
 e       | B       | x=7      | Erst jetzt ist die Überwachungsbedingung true, sodass nun folgende Reihenfolge ausgeführt wird: <ol><li>Ausführung der exit Aktion (x++)</li><li>Ausführung der Übergangsaktivität (x*2)</li><li>Ausführung der Eintrittsaktivität (x=x-3)</li></ol>
 
 
+## Aktivitätsdiagramm
+
+Aktivitätsdiagramme werden für die Darstellung prozeduraler Verarbeitungsaspekte genutzt, um die Reihenfolge von Aktionen zu visualisieren.
+
+### Verfügbare Elemente
+
+Element             | Symbol                                                        | Beschreibung
+--------------------|:-------------------------------------------------------------:|-------------
