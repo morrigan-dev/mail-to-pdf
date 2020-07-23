@@ -4,3 +4,7 @@
 
 
 # Analyse
+
+## Domänenmodell
+
+![Domänenmodell](images/domaenenmodell.png)

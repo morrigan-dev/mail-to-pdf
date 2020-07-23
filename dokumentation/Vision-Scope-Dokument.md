@@ -139,10 +139,10 @@ keinen Einfluss auf die Kernfunktionalität haben.
 
 fix: Aufgrund Äußerer Rahmenbedingungen sind folgende Fertigstellungszeitpunkte zwingend einzuhalten.
 
-* Release 1: Fertigstellung bis spätestens 12.07.2020
-* Release 2: Fertigstellung bis spätestens 17.07.2020
-* Release 3: Fertigstellung bis spätestens 22.07.2020
-* Release 4: Fertigstellung bis spätestens 27.07.2020
+* Release 1: Fertigstellung bis spätestens 30.08.2020
+* Release 2: Fertigstellung bis spätestens 30.09.2020
+* Release 3: Fertigstellung bis spätestens 30.10.2020
+* Release 4: Fertigstellung bis spätestens 30.11.2020
 
 **Kosten**
 

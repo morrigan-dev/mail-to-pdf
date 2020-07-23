@@ -8,7 +8,7 @@
 
 ### Qualitätsanforderungen
 
-Bei der Betrachtung der Qualitätsanforderungen werden die Merkmale wie sie im IEEE 1061-1998 Stanard aufgeführt sind
+Bei der Betrachtung der Qualitätsanforderungen werden die Merkmale, wie sie im IEEE 1061-1998 Standard aufgeführt sind,
 berücksichtigt. Dabei wird jedem Merkmal eine Wichtigkeit zugeordnet, sowie eine Beschreibung, wie geplant ist das
 Merkmal zu erfüllen.
 
@@ -22,7 +22,7 @@ Portabilität         | 2           | Primär soll als Betriebssystem Windows 7 
 Performance          | 3           | Die E-Mails sollen in einer überschaubaren Zeit als PDFs archiviert werden. Dabei ist ein maximaler Wert von 10 Sekunden pro E-Mail nach dem Anstoßen der Archivierung einzuhalten.
 Wiederverwendbarkeit | 0           | Es wird keinen Wert auf Wiederverwendbarkeit gelegt. 
 Zuverlässigkeit      | 8           | Es wird eine hohe Zuverlässigkeit erwartet. Von 1.000 E-Mails, darf maximal eine E-Mail fehlerhaft gespeichert werden.
-Wartbarkeit          | 9           | Die Quellcode muss verständlich und gut strukturiert erstellt werden. Jede öffentliche Java Methode ist mit JavaDoc zu dokumentieren. 
+Wartbarkeit          | 9           | Der Quellcode muss verständlich und gut strukturiert erstellt werden. Jede öffentliche Java Methode ist mit JavaDoc zu dokumentieren. 
 Effizienz            | 0           | Die Anwendung darf so viel Ressourcen für die Aufgabe beziehen wie es benötigt.
 Integrität           | 5           | Der Zugriff auf die E-Mail Postfächer geschieht über sichere Protokolle. Darüber hinaus sind keine weiteren Maßnahmen zur Sicherheit und dem Schutz vor unbefugtem Zugriff zu treffen.
 Verfügbarkeit        | 10          | Das System soll als reine Client-Anwendung realisiert werden und steht somit nach Auslieferung zu 100% der Zeit zur Verfügung.
@@ -171,7 +171,7 @@ Nutzer startet die Löschung.              | Anwendung löscht alle markierten V
 **Name:** Speicherort verwalten<br />
 **Kurzbeschreibung:** Ein Nutzer kann den Speicherort, an dem die archivierten Dateien abgelegt werden einstellen.<br />
 **Nr.:** GA05<br />
-**Vorbedingung:** keine
+**Vorbedingung:** keine<br />
 **Nachbedingung:** keine
 
 Vorhaben des Anwenders                    | Verantwortlichkeit des Systems

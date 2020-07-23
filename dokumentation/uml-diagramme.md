@@ -130,5 +130,5 @@ Unterbrechungsbereich   | ![Unterbrechungsbereich](images/uml/aktivitaetsdiagram
 
 ## Weitere Literatur und Quellen
 
-http://www.uml.ac.at/de/lernen
-https://www.bs7-augsburg.de/aicher/files_codeconcert/11Prog/ANPR_UML_Aktivitaetsdiagramm.pdf
+* http://www.uml.ac.at/de/lernen
+* https://www.bs7-augsburg.de/aicher/files_codeconcert/11Prog/ANPR_UML_Aktivitaetsdiagramm.pdf
